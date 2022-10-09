@@ -46,12 +46,6 @@ img {
 }
 
 /*--------------------------HEADER---------------------------*/
-.page-header {
-  padding-top: 24px;
-  padding-bottom: 25px;
-  border-bottom: 1px solid var(--border-color);
-}
-
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -60,9 +54,16 @@ img {
   /*outline: 2px solid red;*/
 }
 
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid var(--border-color);
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  margin: 0 auto;
 }
 
 .nav-header,
@@ -107,14 +108,6 @@ img {
   margin-bottom: 20px;
 }
 
-.section {
-  margin: 0 auto;
-}
-
-.nav-list {
-  display: flex;
-}
-
 .list {
   list-style: none;
 }
@@ -152,6 +145,8 @@ img {
 .link {
   text-decoration: none;
 }
+
+/*--------------------HERO---------------------------*/
 
 .main-title {
   max-width: 696px;
@@ -212,13 +207,6 @@ img {
   gap: 30px;
 }
 
-.section-team {
-  background-color: var(--background-secondary-light);
-}
-
-.team-item {
-  background-color: var(--primary-light-color);
-}
 .section-title {
   font-size: 36px;
   line-height: 1.17;
@@ -249,6 +237,16 @@ img {
 
 .work-item {
   flex-basis: calc((100% - 60px) / 3);
+}
+
+/*------------------------------------НАША КОМАНДА-----------------------------*/
+
+.section-team {
+  background-color: var(--background-secondary-light);
+}
+
+.team-item {
+  background-color: var(--primary-light-color);
 }
 
 .team-list {
